@@ -18,7 +18,7 @@
 - LCD 顯示即時狀態與提醒訊息
 - Web 儀表板顯示即時狀態、歷史紀錄與飲水趨勢
 - 支援多水壺管理
-- ## 硬體需求（Hardware Requirements）
+## 硬體需求（Hardware Requirements）
 - Raspberry Pi 4
 - Load Cell
 - HX711 重量感測模組
