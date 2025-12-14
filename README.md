@@ -195,6 +195,12 @@ LCD 會顯示提醒訊息，引導使用者補充水分。
 Web Dashboard 提供即時飲水狀態監控，  
 顯示目前水量、今日飲水進度與提醒資訊。
 
+![Web Dashboard - Bottle Management](images/bottles.png)
+
+系統提供水壺管理介面，  
+使用者可新增、編輯與刪除不同水壺設定，  
+包含空壺重量與容量資訊。
+
 ![Web Dashboard - History](images/history.png)
 
 系統會自動記錄每次飲水事件，  
