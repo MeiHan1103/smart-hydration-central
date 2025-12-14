@@ -30,9 +30,13 @@
 ---
 ## 智慧杯墊結構說明
 本系統將 Load Cell 夾設於上下兩塊壓克力板之間， 形成穩定的「智慧杯墊」結構。
+![Smart Coaster Structure](images/coaster_structure.jpg)
 - 上層壓克力板：放置水壺
 - 中間 Load Cell：量測重量變化
-- 下層壓克力板：固定與支撐 此結構可避免水壺直接壓迫感測器造成偏移， 並提升長時間使用的穩定性。
+- 下層壓克力板：固定與支撐
+
+此結構可避免水壺直接壓迫感測器造成偏移， 並提升長時間使用的穩定性。
+
 ---
 ## 硬體接線說明（Wiring）
 ### Load Cell → HX711 
@@ -159,12 +163,51 @@ IOT/
 ## 系統展示（Demo）
 
 本系統實際安裝於桌面環境，  
-使用者將水壺放置於智慧杯墊上，即可自動量測飲水狀態。
+使用者只需將水壺放置於智慧杯墊上，即可自動量測飲水狀態並進行提醒。
 
-展示內容包含：
-- LCD 顯示即時水量與提醒狀態
-- Web Dashboard 顯示即時飲水資訊
-- 歷史飲水紀錄與圖表分析
+### 系統整體實體展示
+
+![System Overview](images/system_overview.jpg)
+
+上圖為本系統實際運作情況，  
+包含 Raspberry Pi、I2C LCD 顯示器與智慧杯墊。  
+LCD 會即時顯示目前水量、距離上次飲水時間與提醒訊息。
+
+
+### LCD 即時顯示與提醒功能
+
+![LCD Status - Drink Now](images/drink_now.jpg)
+
+當使用者長時間未飲水時，  
+LCD 會顯示提醒訊息，引導使用者補充水分。
+
+![LCD Status - Drinking](images/drinking.jpg)
+
+當系統偵測到水壺重量變化時，  
+會自動判斷為飲水行為並即時更新顯示內容。
+
+![LCD Status - No Water](images/no_water.jpg)
+
+若水壺內水量不足或被移開，  
+系統會顯示缺水提示，提醒使用者補水。
+
+### Web Dashboard 即時監控介面
+
+![Web Dashboard - Overview](images/index.png)
+
+Web Dashboard 提供即時飲水狀態監控，  
+顯示目前水量、今日飲水進度與提醒資訊。
+
+![Web Dashboard - History](images/history.png)
+
+系統會自動記錄每次飲水事件，  
+並以表格與圖表方式呈現歷史飲水紀錄。
+
+![Web Dashboard - Settings](images/settings.png)
+
+使用者可透過設定頁面調整每日飲水目標與提醒間隔。
+
+
 
 （Demo 影片連結將補於此）
 ---
