@@ -227,7 +227,7 @@ Web Dashboard 提供即時飲水狀態監控，
 
 
 
-（Demo 影片連結將補於此）
+[Demo影片](https://youtu.be/TH8C_G46ofw?si=vr4vYiZmCV4QIunp)
 ---
 
 ## 系統限制與未來改進（Limitations & Future Work）
