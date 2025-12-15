@@ -37,6 +37,10 @@
 
 ---
 ## 硬體接線說明（Wiring）
+---
+
+![Smart Coaster Structure](images/circuit.jpg)
+
 ### Load Cell → HX711 
 | Load Cell 線色 | HX711 腳位 | 
 |---------------|-----------| 
