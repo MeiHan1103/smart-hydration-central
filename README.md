@@ -253,3 +253,11 @@ Web Dashboard 提供即時飲水狀態監控，
 
 3. Raspberry Pi GPIO Documentation  
    https://www.raspberrypi.com/documentation/
+
+4. Load Cell Weighing Sensor Basics  
+   https://learn.sparkfun.com/tutorials/load-cell-basics
+
+5. RPLCD Documentation  
+   https://rplcd.readthedocs.io/
+
+
